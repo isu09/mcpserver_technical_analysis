@@ -1,0 +1,21 @@
+# config using visual stdio 		# my-mcp-server-ec7de170 which u get from copilot
+                                #(from tools ->go to upper pane ->select other-> run python server.py -> u get my-mcp-server-ec7de170-> copy config file
+
+
+{
+	"servers": {
+		"Stock_Analysis": {
+			"url": "http://127.0.0.1:8000",
+			"type": "http"
+		},
+		"my-mcp-server-ec7de170": {      
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+        	"--directory",
+        	"<PATH OF YOUR server.py file>",
+        	"run",
+        	"server.py"
+      ]
+		}
+	}}
