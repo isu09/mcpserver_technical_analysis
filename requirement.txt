@@ -1,0 +1,10 @@
+yfinance 
+kaleido
+fastmcp
+ta
+plotly
+scipy
+numpy
+pandas
+mcp[cli]
+cryptography

@@ -1,0 +1,23 @@
+[project]
+name = "stock-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=45.0.5",
+    "dotenv>=0.9.9",
+    "fastmcp>=2.10.6",
+    "google-adk>=1.8.0",
+    "kaleido>=1.0.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "loguru>=0.7.3",
+    "mcp[cli]>=1.12.2",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "scipy>=1.16.1",
+    "ta>=0.11.0",
+    "yfinance>=0.2.65",
+]
